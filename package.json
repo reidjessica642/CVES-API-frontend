@@ -1,0 +1,21 @@
+{
+  "name": "hackybara-api-frontend",
+  "version": "0.0.1",
+  "description": "Frontend for CVES-API (name subject to change)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reidjessica642/CVES-API-frontend.git"
+  },
+  "keywords": [],
+  "author": "Jessica Reid",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/reidjessica642/CVES-API-frontend/issues"
+  },
+  "homepage": "https://github.com/reidjessica642/CVES-API-frontend#readme"
+}
