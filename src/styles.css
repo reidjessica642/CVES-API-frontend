@@ -1,3 +1,23 @@
 body {
     background-color: #92AD94;
 }
+
+.custom-navbar {
+    background-color: #7a6563;
+
+    /* text and links */
+    --bs-navbar-brand-color: #ffffff;
+    --bs-navbar-brand-hover-color: #e0e0e0;
+
+    --bs-navbar-color: rgba(255, 255, 255, 0.75);
+    --bs-navbar-hover-color: #ffffff;
+    --bs-navbar-active-color: #ffffff;
+
+    /* color for hamburger */
+    --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.2);
+}
+
+:root {
+    /* overriding bg color */
+    --bs-light-rgb: 223, 238, 225;
+}
