@@ -25,11 +25,7 @@
 
 <main class="container-fluid">
     <div class="bg-light p-5 rounded mt-3">
-        <!--<app-cve-data></app-cve-data>-->
-        <app-cve-listing></app-cve-listing>
-        <!--<app-cve-overview></app-cve-overview>-->
+        <router-outlet></router-outlet>
     </div>
 </main>
-
 <!--TODO if time: Create Custom Footer - might use fontawesome for fake socials (except github)-->
-<router-outlet /> <!--angular currently likes to get mad if I don't include this tag-->
