@@ -10,8 +10,7 @@
     "Data Tampering",
     "Denial of Service"
   ],
-  "risk": "High",
-  "color": "Red"
+  "risk": "High"
 },
 {
   "_id": {
@@ -23,8 +22,7 @@
   "tags": [
     "Remote Code Execution"
   ],
-  "risk": "Critical",
-  "color": "Red"
+  "risk": "Critical"
 },
 {
   "_id": {
@@ -37,6 +35,5 @@
     "Man In The Middle",
     "Denial of Service"
   ],
-  "risk": "Low",
-  "color": "Green"
+  "risk": "Low"
 }]
