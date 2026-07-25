@@ -2,10 +2,11 @@ import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { CveData } from "./cve-data/cve-data.js";
 import { CveListing } from './cve-listing/cve-listing.js';
+import { CveOverview } from './cve-overview/cve-overview.js';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, CveData, CveListing],
+  imports: [RouterOutlet, CveData, CveListing, CveOverview],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
