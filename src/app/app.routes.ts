@@ -2,6 +2,7 @@ import { Routes } from '@angular/router';
 import { CveListing } from './cve-listing/cve-listing.js';
 import { CveData } from './cve-data/cve-data.js';
 import { HackybaraHome } from './hackybara-home/hackybara-home.js';
+import { HackybaraAbout } from './hackybara-about/hackybara-about.js';
 
 export const routes: Routes = [
     {
@@ -10,7 +11,12 @@ export const routes: Routes = [
         title: 'Home',
     },
     {
-        path: 'cves/get', // edit later for an actual landing page
+        path: 'about',
+        component: HackybaraAbout,
+        title: 'About',
+    },
+    {
+        path: 'cves/get',
         component: CveListing,
         title: 'CVE List',
     },
