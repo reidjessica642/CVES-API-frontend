@@ -1,0 +1,16 @@
+img {
+    width: 60%;
+    height: 60%;
+}
+
+.home-paragraph {
+    background-color: #f0ffff;
+    height: 75%;
+    flex: 0 0 60%;
+}
+
+.hackybara-relax {
+    background-color: #f0ffff;
+    text-align: center;
+    flex: 0 0 35%;
+}
