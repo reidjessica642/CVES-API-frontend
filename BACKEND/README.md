@@ -10,4 +10,4 @@ Current utilities used:
 TODO:
 - Edit the colors middleware to include new risk colors
   - This will be used to determine what risk image will be used to display with the details
-  - Instal concurrently to allow simultaneous running
+  - Install concurrently to allow simultaneous running
