@@ -46,4 +46,14 @@
   "url": "https://www.cve.org/CVERecord?id=CVE-2026-17700",
   "tags": "Data Leakage",
   "risk": "High"
+},
+{
+  "_id": {
+    "$oid": "6a6bbf8be4f59c407db81cc0"
+  },
+  "id": "a609148d-7fb4-40e3-95af-f77807eea6d7",
+  "name": "CVE-2026-18201",
+  "url": "https://www.cve.org/CVERecord?id=CVE-2026-18201",
+  "tags": "Missing Authorization",
+  "risk": "Medium"
 }]
