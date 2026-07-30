@@ -10,9 +10,6 @@ Current utilities used:
 TODO:
 - Create a link between new created data so that a specific image will be chosen based on risk level
   - This will be used to determine what risk image will be used to display with the details
-  - Install concurrently to allow simultaneous running
-    - Make sure MongoDB is already running
-      - npm run start should be able to run node AND angular
 
 ## Documentation
 Should you wish to not use the frontend, you can use the backend capabilities to GET, POST, PUT/PATCH/ and DELETE.<br>
