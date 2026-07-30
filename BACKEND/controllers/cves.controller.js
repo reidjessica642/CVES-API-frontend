@@ -24,12 +24,10 @@ export class CvesController {
 
   // createCve
   static createCve = async (req, res) => {
-    setTimeout(async () => {
-      logger.debug('CvesController : createCve()');
+    logger.debug('CvesController : createCve()');
 
-      const result = await CvesService.createCve(req.body);
-      res.status(201).json(result);
-    }, 5000);
+    const result = await CvesService.createCve(req.body);
+    res.status(201).json(result);
   }
 
   // replaceCve
