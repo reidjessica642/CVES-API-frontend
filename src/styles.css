@@ -17,6 +17,18 @@ body {
     --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.2);
 }
 
+.custom-footer {
+    background-color: #7a6563;
+}
+.footer-anchor {
+    background-color: #62514F;
+    color: #ffffff;
+}
+.footer-anchor:hover {
+    background-color: #52413f;
+    color: #ece3e3;
+}
+
 :root {
     /* overriding bg color */
     --bs-light-rgb: 223, 238, 225;
