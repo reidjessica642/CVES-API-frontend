@@ -1,6 +1,8 @@
+<!--navbar-->
 <nav class="navbar navbar-expand-lg custom-navbar">
   <a class="navbar-brand ms-2" href="">Hackybara</a>
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -12,27 +14,51 @@
         <a class="nav-link" href="about">About</a>
       </li>
       <li class="nav-item">
-        <!--link to github for documentation-->
-        <a class="nav-link" href="https://github.com/reidjessica642/HACKYBARA-API/tree/main/BACKEND#readme" target="_blank">Documentation</a>
-      </li>
-      <li class="nav-item">
         <a class="nav-link" href="/cves/list">CVE List</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/cves/create">Create CVE</a>
+      </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
           More
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="/cves/create">Create CVE</a>
+          <!--link to github for documentation-->
+          <a class="dropdown-item" href="https://github.com/reidjessica642/HACKYBARA-API/tree/main/BACKEND#readme"
+            target="_blank">Documentation</a>
         </div>
       </li>
     </ul>
   </div>
 </nav>
 
-<main class="container-fluid">
+
+
+<div class="d-flex flex-column min-vh-100">
+  <!--content-->
+  <main class="container-fluid">
     <div class="bg-light p-5 rounded mt-3">
-        <router-outlet></router-outlet>
+      <router-outlet></router-outlet>
     </div>
-</main>
-<!--TODO if time: Create Custom Footer - might use fontawesome for fake socials (except github)-->
+  </main>
+
+  <!--footer-->
+  <footer class="text-center text-lg-start mt-auto" style="background-color: #7a6563;">
+    <div class="container d-flex justify-content-center py-5">
+      <a href="https://github.com/reidjessica642/HACKYBARA-API" type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.youtube.com/" type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+        <i class="fa-brands fa-youtube"></i>
+      </a>
+      <a href="https://x.com/" type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+        <i class="fa-brands fa-x-twitter"></i>
+      </a>
+    </div>
+    <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2026 Jessica Reid
+    </div>
+  </footer>
+</div>
