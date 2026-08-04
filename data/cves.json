@@ -56,4 +56,30 @@
   "url": "https://www.cve.org/CVERecord?id=CVE-2026-18201",
   "tags": "Missing Authorization",
   "risk": "Medium"
+},
+{
+  "_id": {
+    "$oid": "6a7270ea6b8e7cf60ced0fac"
+  },
+  "id": "600b0577-cd0d-4003-85dc-54e3743dded6",
+  "name": "CVE-2026-47984",
+  "url": "https://www.cve.org/CVERecord?id=CVE-2026-47984",
+  "tags": [
+    "Incorrect Authorization",
+    "Security Feature Bypass"
+  ],
+  "risk": "High"
+},
+{
+  "_id": {
+    "$oid": "6a7272a0494e9be2eac59abc"
+  },
+  "id": "6ab3219c-2097-486e-8d2a-b9cac1430bc7",
+  "name": "CVE-2026-16276",
+  "url": "https://www.cve.org/CVERecord?id=CVE-2026-16276",
+  "tags": [
+    "Information Disclosure",
+    "Broken Access Control"
+  ],
+  "risk": "Low"
 }]
