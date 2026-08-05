@@ -8,7 +8,3 @@ Current utilities used:
 - Node.js
 
 TODO:
-
-## Documentation
-Should you wish to not use the frontend, you can use the backend capabilities to GET, POST, PUT/PATCH/ and DELETE.<br>
-Use your favorite API tester of choice. The ARCA choice is Bruno!
